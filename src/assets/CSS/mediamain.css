@@ -1,0 +1,545 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    padding: 1.5rem 0rem 1.5rem 5rem;
+  }
+  header img {
+    width: 13%;
+    height: 38px;
+  }
+  header .nav-links {
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+  header .nav-links a {
+    font-size: 14px;
+    padding-right: 2.5rem;
+  }
+  header .btn-group {
+    padding-right: 5rem;
+    margin-top: -2rem;
+  }
+  header .btn-group a button {
+    width: 35px;
+    height: 50px;
+    margin-left: 0.7rem;
+    padding-top: 1.5rem;
+    font-size: 17px;
+  }
+  header .hamburger button {
+    display: none;
+  }
+  .main-container {
+    padding: 3rem 0rem 3rem 5rem;
+    width: 100%;
+    min-height: 70vh;
+    background-image: url("../src/assets/Images/twodots.png"), url("../src/assets/Images/small.png"), url("../Images/rightback.png"), url("../Images/BackgroundHeader.png");
+    background-size: 8%, 10%, 57%, cover;
+    background-position: 66% 180px, 63% 60px, 100% 2px, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    box-sizing: border-box;
+  }
+  .main-container h1 {
+    font-size: 60px;
+    margin-bottom: 1.7rem;
+  }
+  .main-container p {
+    font-size: 39px;
+    margin: 1rem 0rem;
+  }
+  .main-container .text span {
+    font-size: 28px;
+  }
+  .main-container .text .price {
+    font-size: 27px;
+    margin-left: 6.5rem;
+    margin-top: 0;
+  }
+  .main-container a button {
+    font-size: 17px;
+    width: 28%;
+    height: 48px;
+    margin-top: 0.5rem;
+  }
+  .product-container {
+    margin-top: 2rem;
+  }
+  .product-container h2 {
+    font-size: 46px;
+    line-height: 35px;
+    margin-bottom: 1rem;
+  }
+  .product-container .product-section {
+    padding: 0rem 9rem;
+    margin: 2.5rem auto;
+    flex-wrap: wrap;
+  }
+  .product-container .product-section .product-card {
+    margin: 0rem auto 2rem auto;
+    width: 285px;
+    height: 285px;
+    padding: 2rem 1.4rem;
+  }
+  .product-container .product-section .product-card .about p {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  .product-container .product-section .product-card .about:hover {
+    cursor: pointer;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .cards-container {
+    padding: 2rem 0rem;
+  }
+  .cards-container h3 {
+    font-size: 41px;
+    line-height: 34px;
+    margin-bottom: 1.5rem;
+  }
+  .cards-container .card {
+    width: 285px;
+    height: 360px;
+    margin: 0 auto;
+  }
+  .cards-container .card .img-part {
+    height: 295px;
+    width: 285px;
+  }
+  .cards-container .card .img-part img {
+    width: 285px;
+    height: 295px;
+  }
+  .cards-container .card .text-part {
+    width: 285px;
+    height: 70px;
+  }
+  .cards-container .card .text-part p {
+    font-size: 15px;
+    line-height: 18px;
+    width: 60%;
+  }
+  .cards-container .card .text-part h5 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .cards-container .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards-container .btn button {
+    font-size: 16px;
+    width: 27%;
+    height: 46px;
+    border: none;
+    background: linear-gradient(to right, #5E3928, #E4A16F);
+    color: #fff;
+    margin-top: 4rem;
+    cursor: pointer;
+  }
+  .cards-container .btn button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .cards-container .slick-slider {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .cards-container .slick-slider .slick-prev {
+    display: none !important;
+  }
+  .cards-container .slick-slider .slick-next {
+    display: none !important;
+  }
+  .cards-container .slick-slider .slick-list {
+    margin: 0rem 0rem;
+  }
+  .fourcards-container {
+    padding: 2rem 0rem;
+    margin-top: 1rem;
+  }
+  .fourcards-container h3 {
+    font-size: 41px;
+    line-height: 34px;
+    margin-bottom: 1.5rem;
+  }
+  .fourcards-container .card {
+    width: 285px;
+    height: 370px;
+    margin: 0 auto;
+  }
+  .fourcards-container .card .img-part {
+    height: 300px;
+    width: 285px;
+  }
+  .fourcards-container .card .img-part img {
+    width: 285px;
+    height: 300px;
+  }
+  .fourcards-container .card .text-part {
+    width: 285px;
+    height: 70px;
+  }
+  .fourcards-container .card .text-part p {
+    font-size: 15px;
+    line-height: 18px;
+    width: 60%;
+  }
+  .fourcards-container .card .text-part h5 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .fourcards-container .card .sale-part button {
+    width: 20%;
+    height: 34px;
+    font-size: 19px;
+    line-height: 19px;
+  }
+  .fourcards-container .btn button {
+    width: 27%;
+    height: 46px;
+    font-size: 16px;
+    margin-top: 4rem;
+  }
+  .fourcards-container .slick-slider {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .fourcards-container .slick-slider .slick-prev {
+    display: none !important;
+  }
+  .fourcards-container .slick-slider .slick-next {
+    display: none !important;
+  }
+  .fourcards-container .slick-slider .slick-list {
+    margin: 0rem 0rem;
+  }
+  .fifth-container {
+    width: 97%;
+    min-height: 40vh;
+    background-image: url("../Images/fifthback.png");
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    padding: 2.5rem 0rem 1rem 2rem;
+    margin-bottom: 2rem;
+  }
+  .fifth-container h2 {
+    font-size: 105px;
+    line-height: 92px;
+    margin: 0rem 0rem 1rem 3rem;
+  }
+  .fifth-container p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-left: 4rem;
+  }
+  .fifth-container button {
+    width: 23%;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  .sixth-container {
+    padding: 2rem 0rem;
+    background-color: #fff;
+  }
+  .sixth-container h3 {
+    font-size: 41px;
+    line-height: 34px;
+    margin-bottom: 1.5rem;
+  }
+  .sixth-container .card {
+    width: 285px;
+    height: 370px;
+    margin: 0 auto;
+  }
+  .sixth-container .card .img-part {
+    height: 300px;
+    width: 285px;
+  }
+  .sixth-container .card .img-part img {
+    width: 285px;
+    height: 300px;
+  }
+  .sixth-container .card .img-part .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem 0rem 0rem 0.8rem;
+    cursor: pointer;
+  }
+  .sixth-container .card .text-part {
+    width: 285px;
+    height: 70px;
+  }
+  .sixth-container .card .text-part p {
+    font-size: 15px;
+    line-height: 18px;
+    width: 60%;
+  }
+  .sixth-container .card .text-part h5 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+  }
+  .sixth-container .btn button {
+    width: 27%;
+    height: 46px;
+    font-size: 16px;
+    margin-top: 4rem;
+  }
+  .sixth-container .slick-slider {
+    margin-left: 0.5rem;
+  }
+  .sixth-container .slick-slider .slick-prev {
+    display: none !important;
+  }
+  .sixth-container .slick-slider .slick-next {
+    display: none !important;
+  }
+  .sixth-container .slick-slider .slick-list {
+    margin: 0rem 0rem;
+  }
+  .seventh-container {
+    padding: 2rem 2rem;
+    margin-top: 1rem;
+  }
+  .seventh-container h3 {
+    color: #031412;
+    font-family: Lighthaus;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .seventh-container .card {
+    width: 285px;
+    height: 370px;
+    margin: 0 auto;
+  }
+  .seventh-container .card .img-part {
+    position: relative;
+    height: 300px;
+    width: 285px;
+  }
+  .seventh-container .card .img-part img {
+    width: 285px;
+    height: 300px;
+  }
+  .seventh-container .card .img-part img:hover {
+    filter: brightness(88%);
+    -webkit-filter: brightness(88%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  .seventh-container .card .img-part .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem 0rem 0rem 0.8rem;
+    cursor: pointer;
+  }
+  .seventh-container .card .text-part {
+    display: flex;
+    justify-content: space-between;
+    width: 285px;
+    height: 70px;
+  }
+  .seventh-container .card .text-part p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    width: 60%;
+  }
+  .seventh-container .card .text-part h5 {
+    font-family: Lighthaus;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+  }
+  .seventh-container .card .text-part .small-text h5 {
+    color: #9B0000;
+  }
+  .seventh-container .card .text-part .small-text del {
+    color: #031412;
+  }
+  .seventh-container .card .sale-part button {
+    width: 20%;
+    height: 34px;
+    background-color: #9B0000;
+    color: #fff;
+    border: none;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 19px;
+    text-align: center;
+  }
+  .seventh-container .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seventh-container .btn button {
+    width: 28%;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background: linear-gradient(to right, #5E3928, #E4A16F);
+    margin-top: 4rem;
+    cursor: pointer;
+  }
+  .seventh-container .btn button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .seventh-container .slick-slider {
+    margin-left: 0rem;
+  }
+  .seventh-container .slick-slider .slick-prev {
+    display: none !important;
+  }
+  .seventh-container .slick-slider .slick-next {
+    display: none !important;
+  }
+  .seventh-container .slick-slider .slick-list {
+    margin: 0rem 0rem;
+  }
+  .eighth-container {
+    padding: 3rem 1rem;
+  }
+  .eighth-container h3 {
+    font-size: 41px;
+    line-height: 34px;
+  }
+  .eighth-container .eight-card {
+    width: 100%;
+    height: 365px;
+  }
+  .eighth-container .eight-card h4 {
+    font-size: 21px;
+    line-height: 21px;
+    margin: 0.5rem 0rem;
+  }
+  .eighth-container .eight-card .background img {
+    width: 100%;
+    height: 60px;
+  }
+  .eighth-container .eight-card-container {
+    margin: 0rem auto;
+  }
+  .eighth-container .btn-groups button {
+    height: 9px;
+  }
+  .last-section {
+    padding: 4rem 3rem;
+  }
+  .last-section h3 {
+    font-size: 41px;
+    line-height: 34px;
+  }
+  .last-section .yasil-kartlar {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    flex-direction: row;
+  }
+  .last-section .yasil-kartlar .ilk-sira {
+    width: 50%;
+    flex-direction: column;
+  }
+  .last-section .yasil-kartlar .ilk-sira .yasil-kart {
+    margin: 1rem auto 1rem auto;
+    width: 50%;
+  }
+  .last-section .yasil-kartlar .ikinci-sira {
+    width: 48%;
+    flex-direction: column;
+  }
+  .last-section .yasil-kartlar .ikinci-sira .yasil-kart {
+    margin: 1rem auto;
+    width: 50%;
+  }
+  .last-section .yasil-kartlar .yasil-kart {
+    width: 45%;
+  }
+  .last-section .yasil-kartlar .yasil-kart h5 {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 16px;
+    margin: 1rem 0rem;
+  }
+  .last-section .yasil-kartlar .yasil-kart p {
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 1rem;
+  }
+  .last-section .yasil-kartlar .yasil-kart a {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .footerr {
+    padding: 4rem 4.5rem 2rem 4.3rem !important;
+  }
+  .news-container {
+    padding: 2rem;
+  }
+  .news-container .naming {
+    font-size: 17px;
+  }
+  .news-container .naming span {
+    font-size: 17px;
+  }
+  .news-container h2 {
+    font-size: 48px;
+    line-height: 51px;
+    margin: 1.4rem 0rem 1.4rem 2.3rem;
+  }
+  .news-container .news-cards .card {
+    width: 50%;
+    height: 320px;
+    margin-bottom: 1rem;
+  }
+  .news-container .news-cards .card .news-image-part {
+    width: 93%;
+  }
+  .news-container .news-cards .card .news-image-part p {
+    top: 9rem;
+    left: 2rem;
+    font-size: 20px;
+  }
+  .news-container .news-cards .card .news-image-part .date-part span {
+    font-size: 17px;
+  }
+  .news-container .news-cards .card .news-text p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+}/*# sourceMappingURL=mediamain.css.map */

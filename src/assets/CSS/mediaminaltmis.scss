@@ -1,0 +1,12 @@
+@media (min-width:992px) and (max-width:1060px){
+    .main-container {
+        width: 100%;
+        min-height: 70vh;
+        background-image: url('../src/assets/Images/twodots.png'), url('../src/assets/Images/small.png'),url('../Images/rightback.png') ,url('../Images/BackgroundHeader.png');
+        background-size: 8%, 11%,62%, cover;
+        background-position: 63% 180px, 60% 60px, 100% 2px,center;
+        background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
+        box-sizing:border-box ;
+      
+       }
+}

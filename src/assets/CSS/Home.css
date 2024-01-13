@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0rem 1.5rem 8rem;
+}
+header img {
+  width: 13%;
+  height: 40px;
+  margin-right: 1rem;
+}
+header .nav-links {
+  padding-top: 1rem;
+  padding-right: 11.7rem;
+}
+header .nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding-right: 2.3rem;
+}
+header .nav-links a:hover {
+  background: linear-gradient(to right, #5E3928, #E4A16F);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+header .btn-group {
+  display: flex;
+  padding-right: 7.5rem;
+  margin-top: -2rem;
+}
+header .btn-group a button {
+  width: 35px;
+  height: 50px;
+  border: none;
+  margin-left: 0.7rem;
+  background-color: #fff;
+  padding-top: 1.5rem;
+  font-size: 17px;
+  cursor: pointer;
+}
+header .btn-group .cart-icon {
+  background: linear-gradient(to right, #5E3928, #E4A16F);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .hamburger button {
+  display: none;
+}
+
+.main-container {
+  padding: 3rem 0rem 3rem 8rem;
+  width: 100%;
+  min-height: 80vh;
+  background-image: url("../src/assets/Images/twodots.png"), url("../src/assets/Images/small.png"), url("../Images/rightback.png"), url("../Images/BackgroundHeader.png");
+  background-size: 8%, 10%, 51%, cover;
+  background-position: 70% 180px, 67% 60px, 100% 2px, center;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  box-sizing: border-box;
+}
+.main-container h1 {
+  font-size: 67px;
+  color: #fff;
+  font-family: Lighthaus;
+  font-weight: 400;
+  margin-bottom: 1.7rem;
+}
+.main-container hr {
+  width: 38%;
+  background: linear-gradient(90deg, #FFFFFF -0.02%, rgba(255, 255, 255, 0) 100.02%);
+  border: none;
+  height: 1px;
+}
+.main-container p {
+  font-size: 43px;
+  font-weight: 800;
+  color: #fff;
+  margin: 1rem 0rem;
+}
+.main-container .text {
+  display: flex;
+}
+.main-container .text span {
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+.main-container .text .price {
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 6.5rem;
+  margin-top: 0;
+}
+.main-container a button {
+  font-size: 18px;
+  font-weight: 800;
+  width: 28%;
+  height: 50px;
+  border: none;
+  background: linear-gradient(to right, #5E3928, #E4A16F);
+  color: #fff;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}/*# sourceMappingURL=Home.css.map */

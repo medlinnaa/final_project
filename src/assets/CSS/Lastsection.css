@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.last-section {
+  background-color: #eeebeb;
+  padding: 4rem 6rem;
+}
+.last-section h3 {
+  color: #031412;
+  font-family: Lighthaus;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.last-section .yasil-kartlar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.last-section .yasil-kartlar .ilk-sira {
+  display: flex;
+}
+.last-section .yasil-kartlar .ilk-sira .yasil-kart {
+  margin: 0rem 1rem 1.5rem 0rem;
+}
+.last-section .yasil-kartlar .ikinci-sira {
+  display: flex;
+}
+.last-section .yasil-kartlar .ikinci-sira .yasil-kart {
+  margin-right: 1rem;
+}
+.last-section .yasil-kartlar .yasil-kart {
+  width: 45%;
+}
+.last-section .yasil-kartlar .yasil-kart h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 17px;
+  color: #031412;
+  margin: 1rem 0rem;
+}
+.last-section .yasil-kartlar .yasil-kart p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #031412;
+  margin-bottom: 1rem;
+}
+.last-section .yasil-kartlar .yasil-kart a {
+  text-decoration: none;
+  background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 18px;
+}/*# sourceMappingURL=Lastsection.css.map */

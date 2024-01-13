@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+.footerr{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url('../Images/BackgroundHeader.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+    padding: 4rem 6.5rem 2rem 7.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    .footer-left{
+        img{
+            margin-bottom: 1rem;
+        }
+        p{
+            margin-bottom: 1rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            color: #ADADAD;
+        }
+        a{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            color: #fff;
+
+        }
+    }
+
+    .footer-right{
+        display: flex;
+        .right-one{
+            margin-right: 3rem;
+            h4{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 800;
+                line-height: 17px;
+                color: #fff;
+                margin-bottom: .3rem;
+            }
+            a{
+                display: block;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19px;
+                text-decoration: none;
+                color: #fff;
+                padding: .5rem 0rem .5rem 0rem;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19px;
+                color: #fff;
+                padding: .6rem 0rem .6rem 0rem;
+            }
+            .icon{
+                margin-right: 1rem;
+                i{
+                    color: #fff;
+                    padding: 0rem 0.8rem 0rem 0rem; 
+                    font-size: 20px; 
+                }
+            }
+        }
+    }
+}

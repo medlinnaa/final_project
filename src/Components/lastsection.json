@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "src": "https://res.cloudinary.com/dyb3n0dwx/image/upload/v1704364642/birinciyasil_penkrn.png",
+        "desc": "Аутентичность",
+        "info": "Медное перегонное оборудование \n используется для получения эфирных \n масел с незапамятных времен."
+    },
+    {
+        "id": 1,
+        "src": "https://res.cloudinary.com/dyb3n0dwx/image/upload/v1704364677/ikinciyasil_ludgfk.png",
+        "desc": "Изысканность",
+        "info": "Наши изделия из меди являются очень \n практичными. В то же время они наполнят \n особой магией ваш дом или рабочее...."
+    },
+    {
+        "id": 2,
+        "src": "https://res.cloudinary.com/dyb3n0dwx/image/upload/v1704364721/ucuncuyasil_wscxxs.png",
+        "desc": "Честная оплата",
+        "info": "Мы стремимся предоставить лучший товар \n по лучшей цене с сервисом высокого \n уровня. Но все начинается c...."
+    },
+    {
+        "id": 3,
+        "src": "https://res.cloudinary.com/dyb3n0dwx/image/upload/v1704364743/dorduncuyasil_uxc0l4.png",
+        "desc": "Большой ассортимент",
+        "info": "У нас есть все от миниатюрных настольных \n паровых дистилляторов эфирных масел до \n крупногабаритного оборудования..."
+    },
+    {
+        "id": 4,
+        "src": "https://res.cloudinary.com/dyb3n0dwx/image/upload/v1704364762/besinciyasil_gy1hnk.png",
+        "desc": "Доставка по всему миру",
+        "info": "Вы можете получить нашу продукцию в \n кратчайшие сроки в любую точку земного \n шара."
+    },
+    {
+        "id": 5,
+        "src": "https://res.cloudinary.com/dyb3n0dwx/image/upload/v1704364781/altinciyasil_lqbclr.png",
+        "desc": "Гарантия качества",
+        "info": "Наше оборудование прозводится вручную. \n Мы постоянно производим контроль \n качества произведенной продукции"   
+     },
+    {
+        "id": 6,
+        "src": "https://res.cloudinary.com/dyb3n0dwx/image/upload/v1704364867/yeddinciyasil_ktm3ke.png",
+        "desc": "Удобство в использовании",
+        "info": "Наши изделия из меди имеют уникальный \n дизайн, который разрабатывался нами с \n целью получения максимальной..."
+    },
+    {
+        "id": 7,
+        "src": "https://res.cloudinary.com/dyb3n0dwx/image/upload/v1704364892/sekkizinciyasil_dbj5ql.png",
+        "desc": "Забота об окружающей среде",
+        "info": "От 2 до 5% от стоимости каждого \n приобретенного товара в нашем магазине \n мы направляем на защиту...."
+    }
+]

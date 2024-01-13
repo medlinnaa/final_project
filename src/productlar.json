@@ -1,0 +1,32 @@
+[
+    {
+        "id":0,
+        "image":"https://res.cloudinary.com/dyb3n0dwx/image/upload/v1705136263/secondfirst-overlay_ab0xhb.png" ,
+        "desc":"Для эфирных масел"
+    },
+    {
+        "id":1,
+        "image":"https://res.cloudinary.com/dyb3n0dwx/image/upload/v1705136263/secondsec-overlay_zzrtqq.png" ,
+        "desc":"Для гидролатов"
+    },
+    {
+        "id":2,
+        "image":"https://res.cloudinary.com/dyb3n0dwx/image/upload/v1705136263/secondthird-overlay_gl8iou.png" ,
+        "desc":"Медная посуда"
+    },
+    {
+        "id":3,
+        "image":"https://res.cloudinary.com/dyb3n0dwx/image/upload/v1705136263/secondforth-overlay_gmyk26.png" ,
+        "desc":"Аксессуары из меди"
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dyb3n0dwx/image/upload/v1701460710/eiqqni5uyvj35c4tmkn4.png" ,
+        "desc":"Индивидуальный заказ"
+    },
+    {
+        "id":5,
+        "image":"https://res.cloudinary.com/dyb3n0dwx/image/upload/v1705136263/secondthird-overlay_gl8iou.png" ,
+        "desc":"Скидки и предложения"
+    }
+]

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.eighth-container {
+  padding: 3rem 2rem;
+}
+.eighth-container h3 {
+  color: #031412;
+  font-family: Lighthaus;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.eighth-container .eight-card {
+  width: 99%;
+  height: 285px;
+  padding: 0.5rem 1rem 0rem 1rem;
+  position: relative;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1019607843);
+  margin: 0rem 0rem 0rem 0rem;
+}
+.eighth-container .eight-card h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 1rem 0rem;
+}
+.eighth-container .eight-card i {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.eighth-container .eight-card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  margin-top: 0.5rem;
+}
+.eighth-container .eight-card .background {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.eighth-container .three-carda {
+  display: flex;
+  margin-left: 5.4rem;
+}
+.eighth-container .eight-card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  margin-left: 6rem;
+}
+.eighth-container .visible {
+  width: 30%;
+}
+.eighth-container .hidden {
+  width: 30%;
+}
+.eighth-container .btn-groups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.eighth-container .btn-groups button {
+  width: 1%;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #031412;
+  margin-left: 0.3rem;
+  border: none;
+}
+.eighth-container .btn-groups button:hover {
+  background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+}/*# sourceMappingURL=Eighth.css.map */

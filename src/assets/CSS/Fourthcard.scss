@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+.fourcards-container{
+    padding: 2rem 7rem;    
+    margin-top: 1rem;
+
+    h3{
+        color: #031412;
+        font-family: Lighthaus;
+        font-size: 43px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;    
+        margin-bottom: 1.5rem;
+    }
+
+    .card{
+        width: 335px;
+        height: 370px;
+
+        .img-part{
+         position: relative;
+         height: 300px;
+         width: 335px;
+            img{
+                width: 335px;
+                height: 300px;
+            }
+
+            img:hover{
+                filter: brightness(88%);
+                -webkit-filter: brightness(88%);
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+            }
+
+            .icon {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 25px;
+                background-color: #fff;
+                width: 40px;
+                height: 40px;
+                padding: 0.5rem 0rem 0rem 0.8rem;
+                cursor: pointer;
+            }
+        }
+
+        .text-part {
+            display: flex;
+            justify-content: space-between;
+            width: 335px;
+            height: 70px;
+
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 17px;
+                line-height: 19px;
+                width: 60%;
+            }
+
+            h5{
+                font-family: Lighthaus;
+                font-size: 23px;
+                font-weight: 800;
+                line-height: 29px;
+            }
+
+            .small-text{
+                h5{
+                    font-family: Lighthaus;
+                    font-size: 23px;
+                    font-weight: 800;
+                    line-height: 29px;
+                    color: #9B0000;
+                }
+
+                del{
+                    color: #031412;
+                }
+            }
+        }
+        .sale-part {
+            button{
+                width: 20%;
+                height: 35px;
+                background-color: #9B0000;
+                color: #fff;
+                border:none;
+                position: absolute;
+                top: 16px;
+                left: 0;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: 900;
+                line-height: 19px;
+                text-align: center;
+             }
+        }
+    }
+
+    .btn { 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+       button{
+        width: 28%;
+        height: 50px;
+        font-size: 15px;
+        border: none;
+        background: linear-gradient(to right, #5E3928, #E4A16F);
+        margin-top: 4rem;
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: #fff;
+          }
+    }
+  }
+
+  .slick-slider {
+    margin-left: .5rem;
+
+    .slick-prev {
+        left: -60px;
+        background-color: #d4d1d1 !important;
+        width: 5%;
+        height: 35px;
+        padding: .3rem 0rem 0rem .7rem;
+    }
+
+    .slick-prev:hover {
+        background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%) !important;
+    }
+
+    .slick-prev:before {
+        color: #031412;
+        font-size: 36px;
+        opacity: 1;
+    }
+
+    .slick-next {
+        background-color: #d4d1d1 !important;
+        width: 5%;
+        height: 35px;
+        padding: .3rem 0rem 0rem .7rem;
+        right: -60px;
+    }
+
+    .slick-next:before {
+        color: #031412;
+        font-size: 36px;
+        opacity: 1;
+    }
+
+    .slick-next:hover {
+        background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%) !important;
+    }
+
+    .slick-list {
+        margin: 0rem 1rem;
+    }
+
+    .slick-dots {
+
+        ul{
+            li {
+                margin: 0 0px !important;
+
+                div {
+                    background: #031412;
+                }
+            }    
+
+            .slick-active  {
+                div{
+                    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+                }
+            }
+        }
+
+    }
+}
+
+}

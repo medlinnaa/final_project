@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.fifth-container {
+  width: 97%;
+  min-height: 56vh;
+  background-image: url("../Images/fifthback.png");
+  background-size: cover;
+  background-position: 97%;
+  background-repeat: no-repeat;
+  padding: 2.5rem 0rem 0rem 2rem;
+  margin-bottom: 2rem;
+}
+.fifth-container h2 {
+  font-family: Lighthaus;
+  font-size: 110px;
+  font-weight: 400;
+  line-height: 95px;
+  color: #fff;
+  margin: 0rem 0rem 1rem 5rem;
+}
+.fifth-container p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #fff;
+  margin-left: 6rem;
+}
+.fifth-container button {
+  width: 23%;
+  height: 42px;
+  font-size: 14px;
+  border: none;
+  background: linear-gradient(to right, #5E3928, #E4A16F);
+  margin-top: 2rem;
+  cursor: pointer;
+  margin-left: 6rem;
+}
+.fifth-container button a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=Fifth.css.map */
