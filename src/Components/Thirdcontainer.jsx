@@ -1,5 +1,5 @@
 import React from 'react'
-import third from '../thirdcont.json'
+import third from '../assets/JSON/thirdcont.json'
 import ThirdCard from './ThirdCard';
 import '../assets/CSS/Thirdcard.css'
 import Slider from "react-slick";
@@ -33,7 +33,7 @@ const Thirdcontainer = () => {
     dots: true,
     infinite: true,
     speed: 5000,
-    slidesToShow: 3, // Display 3 cards at a time
+    slidesToShow: 3, 
     slidesToScroll: 3,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -55,7 +55,6 @@ const Thirdcontainer = () => {
           height: "15px",
         }}
       >
-        {/* {i + 1} */}
       </div>
     ),
     responsive: [
@@ -74,16 +73,13 @@ const Thirdcontainer = () => {
   return (
     <div className='cards-container'>
         <h3>ЛУЧШИЕ ПРОДАЖИ</h3>
-        {/* <div className="cards"> */}
       <Slider {...settings}>
         {third.map((m) => (
           <div key={m.id}>
-            {/* Render the card content inside the slider item */}
             <ThirdCard image={m.src} audience={m.audience} about={m.about} />
           </div>
         ))}
       </Slider>
-      {/* </div>  */}
       <div className='btn'>
         <button>
           <a href='#'>Перейти в каталог</a>

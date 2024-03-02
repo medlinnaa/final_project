@@ -44,10 +44,6 @@
   top: 0;
   right: 0;
 }
-.eighth-container .three-carda {
-  display: flex;
-  margin-left: 5.4rem;
-}
 .eighth-container .eight-card-container {
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/CSS/Product.css'
-import productlar from '../productlar.json'
+import productlar from '../assets/JSON/productlar.json'
 import Productcard from './Productcard'
 
 const Productcontainer = () => {

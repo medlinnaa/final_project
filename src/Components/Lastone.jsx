@@ -1,7 +1,7 @@
 import React from 'react'
 import Yasilkart from './Yasilkart'
 import '../assets/CSS/Lastsection.css';
-import last from "./lastsection.json";
+import last from "../assets/JSON/lastsection.json";
 
 const Lastone = () => {
   const midpoint = Math.ceil(last.length / 2);

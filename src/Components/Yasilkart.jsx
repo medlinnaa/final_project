@@ -1,5 +1,4 @@
 import React from 'react';
-import birincikart from "../assets/Images/birinciyasil.png"
 
 const Yasilkart = ({image,desc,info}) => {
   return (

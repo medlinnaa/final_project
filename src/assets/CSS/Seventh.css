@@ -46,6 +46,21 @@
   padding: 0.5rem 0rem 0rem 0.8rem;
   cursor: pointer;
 }
+.seventh-container .card .img-part .sale-part button {
+  width: 20%;
+  height: 35px;
+  background-color: #9B0000;
+  color: #fff;
+  border: none;
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 19px;
+  text-align: center;
+}
 .seventh-container .card .text-part {
   display: flex;
   justify-content: space-between;
@@ -69,21 +84,6 @@
 }
 .seventh-container .card .text-part .small-text del {
   color: #031412;
-}
-.seventh-container .card .sale-part button {
-  width: 20%;
-  height: 35px;
-  background-color: #9B0000;
-  color: #fff;
-  border: none;
-  position: absolute;
-  top: 16px;
-  left: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 19px;
-  text-align: center;
 }
 .seventh-container .btn {
   display: flex;

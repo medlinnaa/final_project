@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
 import "../assets/CSS/Novosti.css"
-import news from '../news.json'
+import news from '../assets/JSON/news.json'
 import Button from './Button';
 
 const Novosti = () => {

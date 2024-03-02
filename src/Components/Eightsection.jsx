@@ -50,7 +50,7 @@ const Eightsection = () => {
         </div>
       ),
     },
-    // ... Add more cardData objects as needed
+
   ];
 
   const handleLeftButtonClick = () => {

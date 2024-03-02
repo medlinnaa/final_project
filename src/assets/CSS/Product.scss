@@ -11,7 +11,6 @@
 
 
     .product-section{
-        width:80;
         display:flex;
         padding: 0rem 6rem;
         margin: 2.5rem 0rem;
@@ -39,13 +38,6 @@
         left:0;
     }
     .about {
-        p{
-            color: #FFFFFF;
-            font-family: Lighthaus;
-            font-size: 25px;
-            font-weight: 600;
-            line-height: 29px;
-        }
         position:relative;
         z-index:3;
         opacity:0;
@@ -56,6 +48,14 @@
         -moz-transform: translateY(30px);
         -ms-transform: translateY(30px);
         -o-transform: translateY(30px);
+        p{
+            color: #FFFFFF;
+            font-family: Lighthaus;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 29px;
+        }
+    
 }
     .about:hover{
         cursor:pointer;

@@ -7,73 +7,7 @@
 }
 
 
-   
 
-   header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 0rem 1.5rem 8rem;
-
-    img{
-        width: 13%;
-        height: 40px;
-        margin-right: 1rem;
-    }
-
-    .nav-links {
-        padding-top: 1rem;
-        padding-right: 11.7rem;
-        a{
-            text-decoration: none;
-            color: #fff;
-            font-weight: 600;
-            font-size: 15px;
-            padding-right: 2.3rem;
-        }
-
-        a:hover{
-             background: linear-gradient(to right, #5E3928, #E4A16F);
-             background-clip: text;
-             -webkit-background-clip: text;
-             -webkit-text-fill-color: transparent;
-             transition: 1s;
-             -webkit-transition: 1s;
-             -moz-transition: 1s;
-             -ms-transition: 1s;
-             -o-transition: 1s;
-}
-    }
-
-    .btn-group {
-        display: flex;
-        padding-right: 7.5rem;
-        margin-top: -2rem;
-      a{
-        button{
-            width: 35px;
-            height: 50px;
-            border: none;
-            margin-left: 0.7rem;
-            background-color: #fff;
-            padding-top: 1.5rem;
-            font-size: 17px;
-            cursor: pointer;
-} 
-      }
-
-    .cart-icon{  
-        background: linear-gradient(to right, #5E3928, #E4A16F);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-}
-    }
-    .hamburger{
-        button{
-          display: none;
-        }
-      }
-   }
 
    .main-container {
     padding: 3rem 0rem 3rem 8rem;
@@ -84,9 +18,7 @@
     background-position: 70% 180px, 67% 60px, 100% 2px,center;
     background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
     box-sizing:border-box ;
-
-
-      
+    
 
     h1{
         font-size: 67px;
@@ -112,7 +44,6 @@
 
     .text{
         display: flex; 
-        // margin-top: 2rem;
 
         span{
             font-size: 30px;

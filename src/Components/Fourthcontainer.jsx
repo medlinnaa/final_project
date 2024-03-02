@@ -92,7 +92,6 @@ const Fourthcontainer = () => {
   return (
     <div className='fourcards-container'>
         <h3>НОВИНКИ</h3>
-        {/* <div className="cards"> */}
       <Slider {...settings}>
       <div className='card'>
     <div className="img-part">
@@ -221,7 +220,6 @@ const Fourthcontainer = () => {
     </div>
   </div>
       </Slider>
-      {/* </div>  */}
       <div className='btn'>
         <button>
           <a href='#'>Перейти в каталог</a>

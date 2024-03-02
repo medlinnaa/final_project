@@ -6,4 +6,58 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0rem 1.5rem 8rem;
+}
+header img {
+  width: 13%;
+  height: 40px;
+  margin-right: 1rem;
+}
+header .nav-links {
+  padding-top: 1rem;
+  padding-right: 11.7rem;
+}
+header .nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding-right: 2.3rem;
+}
+header .nav-links a:hover {
+  background: linear-gradient(to right, #5E3928, #E4A16F);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+header .btn-group {
+  display: flex;
+  padding-right: 7.5rem;
+  margin-top: -2rem;
+}
+header .btn-group a button {
+  width: 35px;
+  height: 50px;
+  border: none;
+  margin-left: 0.7rem;
+  background-color: #fff;
+  padding-top: 1.5rem;
+  font-size: 17px;
+  cursor: pointer;
+}
+header .btn-group .cart-icon {
+  background: linear-gradient(to right, #5E3928, #E4A16F);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .hamburger button {
+  display: none;
 }/*# sourceMappingURL=Header.css.map */

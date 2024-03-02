@@ -16,7 +16,7 @@ import '../assets/CSS/mediaphone.css'
 
 const Container = () => {
   return (
-    <div className='container'>
+    <div>
       <Maincontainer/>
       <Productcontainer/>
     <Thirdcontainer/>
